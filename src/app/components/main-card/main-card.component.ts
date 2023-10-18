@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { dataFake } from 'src/app/data/dataFake';
 
 @Component({
   selector: 'app-main-card',
@@ -7,15 +8,19 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class MainCardComponent implements OnInit {
   @Input()
-  photoCover: string = "";
+  Id: string = "";
   @Input()
-  cardTitle: string = "";
+  photoCover: string = dataFake[+this.Id].photo;
   @Input()
-  cardDescription: string = "";
+  cardTitle: string = dataFake[+this.Id].title;
+  @Input()
+  cardDescription: string = dataFake[+this.Id].description;
 
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.cardDescription);
+    
   }
 
 }
