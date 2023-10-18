@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-side-card',
@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./side-card.component.css']
 })
 export class SideCardComponent implements OnInit {
+  @Input()
+  photoCover: string = "";
+  @Input()
+  cardTitle: string = "";
 
   constructor() { }
 
