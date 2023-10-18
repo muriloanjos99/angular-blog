@@ -13,3 +13,7 @@
 .container__menu-bar > ul > li > span {
   color: antiquewhite;
 }
+
+.container__menu-bar > hr {
+  margin-bottom: 10px;
+}
