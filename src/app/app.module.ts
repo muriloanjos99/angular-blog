@@ -7,7 +7,9 @@ import { HeaderMenuComponent } from './components/header-menu/header-menu.compon
 import { PageTitleComponent } from './components/page-title/page-title.component';
 import { MainCardComponent } from './components/main-card/main-card.component';
 import { NewsSidebarComponent } from './components/news-sidebar/news-sidebar.component';
-import { SideCardsComponent } from './components/news-sidebar/side-cards/side-cards.component';
+import { SideCardComponent } from './components/news-sidebar/side-card/side-card.component';
+import { HomeComponent } from './pages/home/home.component';
+import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { SideCardsComponent } from './components/news-sidebar/side-cards/side-ca
     PageTitleComponent,
     MainCardComponent,
     NewsSidebarComponent,
-    SideCardsComponent
+    HomeComponent,
+    SideCardComponent,
+    MenuBarComponent
   ],
   imports: [
     BrowserModule,

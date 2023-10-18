@@ -1,0 +1,9 @@
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+app-side-card {
+  display: flex;
+  height: 123px;
+}

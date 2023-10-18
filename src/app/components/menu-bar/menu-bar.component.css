@@ -1,0 +1,14 @@
+.container__menu-bar > ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container__menu-bar > ul > li > a {
+  color: antiquewhite;
+}
+
+.container__menu-bar > ul > li > span {
+  color: antiquewhite;
+}

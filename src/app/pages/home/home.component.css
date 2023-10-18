@@ -1,0 +1,35 @@
+.container__articles {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.articles {
+  display: flex;
+}
+
+app-main-card {
+  display: flex;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+app-news-sidebar {
+  display: block;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.articles__main-card {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.articles__sidebar {
+  width: 50%;
+}
